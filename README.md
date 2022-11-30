@@ -1,5 +1,5 @@
-# AcmeFresh
-AcmeFresh organization product delivery Restful Api project with admin login, customer login and product selling Api's
+# E-Commerce
+E-Commerce organization product delivery Restful Api project with admin login, customer login and product selling Api's
 
 **ER(Entity Relationship diagram)**
 
@@ -29,27 +29,9 @@ AcmeFresh organization product delivery Restful Api project with admin login, cu
 
 **Mysql Database**
 
-![Screenshot (792)](https://user-images.githubusercontent.com/57911117/201010404-213ca9fa-aa84-4939-8abd-ebcd794c281e.png)
-
-![Screenshot (793)](https://user-images.githubusercontent.com/57911117/201010419-7102aca1-7c7e-4636-9830-1cb446ffb617.png)
-
-![Screenshot (794)](https://user-images.githubusercontent.com/57911117/201010643-c29609dd-6522-4adb-814d-bca0aa1c23b6.png)
-
-```
-#changing the server port
-server.port=8123
 
 
-#db specific properties
-spring.datasource.url=jdbc:mysql://localhost:3306/asmefresh
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.datasource.username=root
-spring.datasource.password=shubhamcool1$
 
-#ORM s/w specific properties
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
 
-spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
 
 ```
